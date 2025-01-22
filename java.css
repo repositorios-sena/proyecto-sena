@@ -1,0 +1,79 @@
+.fulanito2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;  
+    display: grid;  
+  }
+  
+  .fulanito2::before {
+    content: '';
+    position: absolute;    
+    width: 100%;
+    height: 113%;
+    background-image: url(fondojava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.5; 
+    z-index: 1;
+  }
+  
+  .fulanito2 > * {
+    position: relative;
+    z-index: 2;
+  }
+
+.titulo{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:black;
+
+}
+a{
+    text-decoration: none;
+    text-align: center;    
+    font-size: 30px;
+    margin-right: 60px;
+    
+        
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:orangered;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+footer{
+  margin-top: 80px;
+}
+.botonsitos { 
+  display: flex; 
+  justify-content: center;
+} 
+.botonsitos button{
+  width: 120px;
+  margin-left: 46%;
+  margin-top: 30px;
+  margin: 5px;
+}
+button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+  width: 120px;
+  background-color:rgb(195, 97, 18);
+  border-radius: 5px;
+}
