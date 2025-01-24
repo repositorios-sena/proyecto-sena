@@ -1,0 +1,2 @@
+nombre usuario: pepito perez
+correo electrónico: pepito@gmail.com.co
